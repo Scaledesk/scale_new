@@ -572,7 +572,7 @@ nav ul{
     }
 }
 .card-team {
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.23),inset 0 0 0 0 hsla(0,0%,100%,.2)!important;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.23),inset 0 0 0 0 hsla(0,0%,80%,.3)!important;
     background-color: #ffffff;
 
 }
@@ -762,7 +762,7 @@ small{
 @media screen and (min-width: 769px){
 
     #contact-section{
-        padding: 8% 7%;
+        padding: 0% 8% 7% 8%;
 
     }
 }
@@ -904,6 +904,10 @@ small{
     padding: 30PX;
 }
 
+.p-40{
+    padding: 40PX;
+}
+
 
 .p-t-10{
     padding-top: 10px;
@@ -915,6 +919,11 @@ small{
 
 .p-t-40{
     padding-top: 40px;
+}
+
+.p-b-80{
+    padding-bottom: 80px;
+
 }
 
 
