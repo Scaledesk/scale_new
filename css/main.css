@@ -3,7 +3,9 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+html{
+    overflow-x: hidden;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -11,6 +13,7 @@ body{
     overflow-x: hidden;
     color: #565a5c;
     position: relative;
+
 }
 
 a[href]:not([class]){
@@ -237,6 +240,9 @@ nav ul{
 
 }
 
+
+
+
 /*//////////////////////////////////////////////////////////////////////////////////
                                  Hero Section
 //////////////////////////////////////////////////////////////////////////////////*/
@@ -336,23 +342,29 @@ nav ul{
     margin-bottom: 40px;
 }
 
+.sub-heading{
+    font-size: 16px;
+    font-weight: 400;
+}
 .h-para{
     /*color:#fff;*/
-    font-size: 14px;
+
+    font-size: 15px;
+    font-weight: 300;
 }
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: -1; /* Stay on top */
-    top: 0;
+    height:auto;
+    width: 100% !important;
+    position: fixed;
+    z-index: -1;
+    top: -100px;
     left: 0;
-    background-color: #fff; /* white*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 
 }
 
@@ -441,6 +453,26 @@ nav ul{
 
 
 
+#bg-trigle-shape{
+
+  /*!*  width: 80px;
+    height: 0;*!
+    position: absolute;
+    transform: scale(1,4);
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid red;*/
+
+    position: relative;
+    right: -292px;
+    top: 340px;
+    z-index: 0;
+    /* bottom: 498px; */
+    transform: scale(0.6,9.5);
+    border-left: 420px solid transparent;
+    border-bottom: 100px solid rgba(243, 243, 242, 0.73);
+    z-index:-1;
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////////////////////
@@ -521,6 +553,29 @@ nav ul{
     margin: 0;
     background-color: #f9d616;
     border: 1px solid #000;
+}
+
+
+#bg-triangledown-shape{
+    width: 200px;
+    height: 70px;
+    transform: scale(12,8);
+    background: rgba(243, 243, 242, 0.73);
+    position: relative;
+    top: 136px;
+    z-index: -1;
+}
+#bg-triangledown-shape:after {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #fff;
+    border-left: 200px solid rgba(243, 243, 242, 0.73);
+    position: absolute;
+    content: "";
+    top: 70px;
+    left: 0px;
+
+
 }
 
 
